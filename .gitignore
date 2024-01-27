@@ -30,3 +30,18 @@
 *.exe
 *.out
 *.app
+
+# Build directories
+build/
+
+# Testing tmp directories
+Testing/
+
+# Cmake generated and user files
+**/CMakeCache.txt
+**/CMakeUserPresets.json
+**/CTestTestfile.cmake
+**/CPackConfig.cmake
+**/cmake_install.cmake
+**/install_manifest.txt
+**/compile_commands.json
